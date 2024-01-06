@@ -1,0 +1,24 @@
+.modal {
+  display: none;
+  position: fixed;
+}
+
+.modal.open {
+  display: flex;
+}
+
+.modal-container {
+  width: 200px;
+  margin: 20px;
+  padding: 20px;
+  border: 2px solid blue;
+}
+button {
+  background-color: red;
+  width: 100px;
+  height: 30px;
+  color: white;
+  border: 0;
+  font-weight: 600;
+  border-radius: 5px;
+}
